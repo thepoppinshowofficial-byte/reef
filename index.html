@@ -1,0 +1,1934 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>عرض ريف الحصري | خصم 5%</title>
+
+  <meta
+    name="description"
+    content="احصل على خصم 5% من ريف باستخدام كود REE57. انسخ الكود واستفد من العرض الآن."
+  >
+
+  <meta
+    name="robots"
+    content="index, follow"
+  >
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      font-family:
+        Arial,
+        Tahoma,
+        sans-serif;
+    }
+
+    body {
+
+      min-height: 100vh;
+
+      color: #ffffff;
+
+      overflow-x: hidden;
+
+      background:
+        radial-gradient(
+          circle at 15% 10%,
+          rgba(214, 180, 105, 0.15),
+          transparent 28%
+        ),
+        radial-gradient(
+          circle at 90% 90%,
+          rgba(120, 80, 30, 0.14),
+          transparent 32%
+        ),
+        linear-gradient(
+          135deg,
+          #090807 0%,
+          #17130e 50%,
+          #050505 100%
+        );
+    }
+
+
+    /* =====================================
+       PAGE
+    ====================================== */
+
+    .page {
+
+      width: 100%;
+
+      min-height: 100vh;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      padding: 18px;
+
+      position: relative;
+
+      overflow: hidden;
+    }
+
+
+    /* =====================================
+       BACKGROUND GLOW
+    ====================================== */
+
+    .glow {
+
+      position: absolute;
+
+      width: 480px;
+
+      height: 480px;
+
+      border-radius: 50%;
+
+      filter: blur(110px);
+
+      pointer-events: none;
+    }
+
+
+    .glow-one {
+
+      top: -230px;
+
+      right: -160px;
+
+      background:
+        rgba(218, 181, 100, 0.13);
+    }
+
+
+    .glow-two {
+
+      bottom: -240px;
+
+      left: -180px;
+
+      background:
+        rgba(120, 80, 35, 0.13);
+    }
+
+
+    /* =====================================
+       MAIN BANNER
+    ====================================== */
+
+    .banner {
+
+      width:
+        min(1200px, 100%);
+
+      min-height:
+        calc(100vh - 36px);
+
+      position:
+        relative;
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        center;
+
+      padding:
+        70px 40px 40px;
+
+      border-radius:
+        30px;
+
+      overflow:
+        hidden;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255,255,255,0.075),
+          rgba(255,255,255,0.018)
+        );
+
+      border:
+        1px solid
+        rgba(218,181,100,0.22);
+
+      box-shadow:
+        0 35px 100px
+        rgba(0,0,0,0.65),
+
+        inset 0 1px
+        rgba(255,255,255,0.10);
+    }
+
+
+    /* =====================================
+       DECORATIVE RINGS
+    ====================================== */
+
+    .ring {
+
+      position:
+        absolute;
+
+      border-radius:
+        50%;
+
+      border:
+        1px solid
+        rgba(218,181,100,0.10);
+
+      pointer-events:
+        none;
+    }
+
+
+    .ring-one {
+
+      width:
+        650px;
+
+      height:
+        650px;
+
+      right:
+        -390px;
+
+      top:
+        50%;
+
+      transform:
+        translateY(-50%);
+    }
+
+
+    .ring-two {
+
+      width:
+        430px;
+
+      height:
+        430px;
+
+      left:
+        -280px;
+
+      top:
+        -100px;
+    }
+
+
+    /* =====================================
+       TOP FLASH LABEL
+    ====================================== */
+
+    .flash-label {
+
+      position:
+        absolute;
+
+      top:
+        22px;
+
+      left:
+        50%;
+
+      transform:
+        translateX(-50%);
+
+      padding:
+        9px 24px;
+
+      border-radius:
+        50px;
+
+      background:
+        linear-gradient(
+          135deg,
+          #e8ca83,
+          #b99043
+        );
+
+      color:
+        #17120a;
+
+      font-size:
+        13px;
+
+      font-weight:
+        900;
+
+      white-space:
+        nowrap;
+
+      box-shadow:
+        0 8px 30px
+        rgba(190,150,70,0.22);
+    }
+
+
+    /* =====================================
+       CONTENT
+    ====================================== */
+
+    .content {
+
+      width:
+        100%;
+
+      max-width:
+        900px;
+
+      text-align:
+        center;
+
+      position:
+        relative;
+
+      z-index:
+        3;
+    }
+
+
+    /* =====================================
+       BRAND
+    ====================================== */
+
+    .brand {
+
+      font-size:
+        18px;
+
+      letter-spacing:
+        7px;
+
+      font-weight:
+        900;
+
+      color:
+        #d8b66a;
+
+      margin-bottom:
+        15px;
+    }
+
+
+    /* =====================================
+       GEO BADGES
+    ====================================== */
+
+    .geo-list {
+
+      display:
+        flex;
+
+      justify-content:
+        center;
+
+      align-items:
+        center;
+
+      flex-wrap:
+        wrap;
+
+      gap:
+        7px;
+
+      margin-bottom:
+        20px;
+    }
+
+
+    .geo {
+
+      padding:
+        6px 11px;
+
+      border-radius:
+        50px;
+
+      background:
+        rgba(255,255,255,0.055);
+
+      border:
+        1px solid
+        rgba(255,255,255,0.10);
+
+      color:
+        #cfc7b7;
+
+      font-size:
+        10px;
+    }
+
+
+    /* =====================================
+       HEADLINE
+    ====================================== */
+
+    .headline {
+
+      font-size:
+        clamp(43px, 7vw, 82px);
+
+      line-height:
+        1.05;
+
+      font-weight:
+        900;
+
+      letter-spacing:
+        -2px;
+
+      margin-bottom:
+        18px;
+    }
+
+
+    .headline .gold {
+
+      color:
+        #dcb96d;
+
+      text-shadow:
+        0 0 35px
+        rgba(220,185,109,0.22);
+    }
+
+
+    /* =====================================
+       DESCRIPTION
+    ====================================== */
+
+    .description {
+
+      max-width:
+        720px;
+
+      margin:
+        0 auto 25px;
+
+      color:
+        #d0ccc4;
+
+      font-size:
+        clamp(16px, 2vw, 21px);
+
+      line-height:
+        1.8;
+    }
+
+
+    .description strong {
+
+      color:
+        #f0d38c;
+    }
+
+
+    /* =====================================
+       OFFER
+    ====================================== */
+
+    .offer {
+
+      display:
+        inline-flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        center;
+
+      gap:
+        17px;
+
+      padding:
+        12px 28px;
+
+      margin-bottom:
+        25px;
+
+      border-radius:
+        18px;
+
+      background:
+        rgba(218,181,100,0.08);
+
+      border:
+        1px solid
+        rgba(218,181,100,0.28);
+
+      animation:
+        offerPulse 2.2s infinite;
+    }
+
+
+    .offer-percent {
+
+      font-size:
+        46px;
+
+      font-weight:
+        900;
+
+      color:
+        #e2c27b;
+    }
+
+
+    .offer-text {
+
+      text-align:
+        right;
+
+      font-size:
+        14px;
+
+      color:
+        #eeeeee;
+
+      line-height:
+        1.5;
+    }
+
+
+    /* =====================================
+       COUPON
+    ====================================== */
+
+    .coupon-area {
+
+      width:
+        100%;
+
+      max-width:
+        550px;
+
+      margin:
+        0 auto 27px;
+    }
+
+
+    .coupon-title {
+
+      font-size:
+        13px;
+
+      color:
+        #aaa49a;
+
+      margin-bottom:
+        9px;
+    }
+
+
+    .coupon-box {
+
+      width:
+        100%;
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        space-between;
+
+      gap:
+        8px;
+
+      padding:
+        7px;
+
+      background:
+        #f9f7f2;
+
+      border-radius:
+        17px;
+
+      direction:
+        ltr;
+
+      cursor:
+        pointer;
+
+      box-shadow:
+        0 18px 45px
+        rgba(0,0,0,0.32);
+
+      transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+    }
+
+
+    .coupon-box:hover {
+
+      transform:
+        translateY(-2px);
+
+      box-shadow:
+        0 22px 55px
+        rgba(0,0,0,0.40);
+    }
+
+
+    .coupon-code {
+
+      flex:
+        1;
+
+      color:
+        #16130e;
+
+      font-size:
+        25px;
+
+      font-weight:
+        900;
+
+      letter-spacing:
+        4px;
+
+      text-align:
+        center;
+
+      padding:
+        11px;
+    }
+
+
+    /* =====================================
+       COPY BUTTON
+    ====================================== */
+
+    .copy-button {
+
+      border:
+        none;
+
+      cursor:
+        pointer;
+
+      padding:
+        14px 22px;
+
+      border-radius:
+        11px;
+
+      background:
+        #17130e;
+
+      color:
+        #ffffff;
+
+      font-size:
+        13px;
+
+      font-weight:
+        900;
+
+      white-space:
+        nowrap;
+
+      transition:
+        all .2s ease;
+    }
+
+
+    .copy-button:hover {
+
+      background:
+        #2c251b;
+
+      transform:
+        scale(1.03);
+    }
+
+
+    .copy-button.copied {
+
+      background:
+        #237846;
+    }
+
+
+    /* =====================================
+       TIMER
+    ====================================== */
+
+    .timer-title {
+
+      color:
+        #aaa49a;
+
+      font-size:
+        13px;
+
+      margin-bottom:
+        10px;
+    }
+
+
+    .timer {
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        center;
+
+      gap:
+        9px;
+
+      direction:
+        ltr;
+
+      margin-bottom:
+        25px;
+    }
+
+
+    .time {
+
+      min-width:
+        74px;
+
+      padding:
+        11px 8px;
+
+      border-radius:
+        14px;
+
+      background:
+        rgba(255,255,255,0.055);
+
+      border:
+        1px solid
+        rgba(255,255,255,0.10);
+    }
+
+
+    .time-number {
+
+      font-size:
+        29px;
+
+      font-weight:
+        900;
+
+      line-height:
+        1;
+    }
+
+
+    .time-label {
+
+      margin-top:
+        7px;
+
+      color:
+        #918b80;
+
+      font-size:
+        10px;
+    }
+
+
+    .separator {
+
+      color:
+        #dcb96d;
+
+      font-size:
+        22px;
+
+      font-weight:
+        900;
+    }
+
+
+    /* =====================================
+       STATUS
+    ====================================== */
+
+    .status {
+
+      font-size:
+        12px;
+
+      color:
+        #858078;
+
+      min-height:
+        18px;
+    }
+
+
+    /* =====================================
+       FOOTER
+    ====================================== */
+
+    .footer {
+
+      margin-top:
+        13px;
+
+      color:
+        #6f6a63;
+
+      font-size:
+        9px;
+
+      line-height:
+        1.7;
+    }
+
+
+    /* =====================================
+       ANIMATION
+    ====================================== */
+
+    @keyframes offerPulse {
+
+      0%,
+      100% {
+        transform:
+          scale(1);
+      }
+
+      50% {
+        transform:
+          scale(1.025);
+      }
+
+    }
+
+
+    /* =====================================
+       MOBILE
+    ====================================== */
+
+    @media (max-width: 700px) {
+
+      .page {
+
+        padding:
+          9px;
+      }
+
+
+      .banner {
+
+        min-height:
+          calc(100vh - 18px);
+
+        border-radius:
+          22px;
+
+        padding:
+          67px 15px 28px;
+      }
+
+
+      .flash-label {
+
+        top:
+          17px;
+
+        font-size:
+          9px;
+
+        padding:
+          8px 14px;
+      }
+
+
+      .brand {
+
+        font-size:
+          15px;
+
+        letter-spacing:
+          5px;
+
+        margin-bottom:
+          12px;
+      }
+
+
+      .geo-list {
+
+        gap:
+          5px;
+
+        margin-bottom:
+          17px;
+      }
+
+
+      .geo {
+
+        font-size:
+          8px;
+
+        padding:
+          5px 8px;
+      }
+
+
+      .headline {
+
+        font-size:
+          43px;
+
+        letter-spacing:
+          -1px;
+
+        margin-bottom:
+          15px;
+      }
+
+
+      .description {
+
+        font-size:
+          14px;
+
+        line-height:
+          1.7;
+
+        margin-bottom:
+          19px;
+      }
+
+
+      .offer {
+
+        padding:
+          9px 18px;
+
+        gap:
+          12px;
+
+        margin-bottom:
+          20px;
+      }
+
+
+      .offer-percent {
+
+        font-size:
+          35px;
+      }
+
+
+      .offer-text {
+
+        font-size:
+          11px;
+      }
+
+
+      .coupon-area {
+
+        margin-bottom:
+          23px;
+      }
+
+
+      .coupon-box {
+
+        padding:
+          6px;
+
+        gap:
+          5px;
+      }
+
+
+      .coupon-code {
+
+        font-size:
+          19px;
+
+        letter-spacing:
+          2px;
+
+        padding:
+          9px 4px;
+      }
+
+
+      .copy-button {
+
+        padding:
+          12px 13px;
+
+        font-size:
+          10px;
+      }
+
+
+      .timer {
+
+        gap:
+          5px;
+
+        margin-bottom:
+          21px;
+      }
+
+
+      .time {
+
+        min-width:
+          56px;
+
+        padding:
+          9px 5px;
+
+        border-radius:
+          11px;
+      }
+
+
+      .time-number {
+
+        font-size:
+          22px;
+      }
+
+
+      .time-label {
+
+        font-size:
+          8px;
+
+        margin-top:
+          6px;
+      }
+
+
+      .separator {
+
+        font-size:
+          17px;
+      }
+
+
+      .status {
+
+        font-size:
+          10px;
+      }
+
+
+      .footer {
+
+        font-size:
+          8px;
+      }
+
+    }
+
+
+    /* =====================================
+       SMALL MOBILE
+    ====================================== */
+
+    @media (max-width: 380px) {
+
+      .headline {
+
+        font-size:
+          37px;
+      }
+
+
+      .geo {
+
+        font-size:
+          7px;
+      }
+
+
+      .offer-percent {
+
+        font-size:
+          31px;
+      }
+
+
+      .time {
+
+        min-width:
+          51px;
+      }
+
+
+      .time-number {
+
+        font-size:
+          20px;
+      }
+
+
+      .coupon-code {
+
+        font-size:
+          16px;
+      }
+
+
+      .copy-button {
+
+        padding:
+          11px 9px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <main class="page">
+
+
+    <div class="glow glow-one"></div>
+
+    <div class="glow glow-two"></div>
+
+
+    <section class="banner">
+
+
+      <div class="ring ring-one"></div>
+
+      <div class="ring ring-two"></div>
+
+
+      <!-- =================================
+           FLASH LABEL
+      ================================== -->
+
+      <div class="flash-label">
+
+        🔥 عرض ريف لفترة محدودة
+
+      </div>
+
+
+      <div class="content">
+
+
+        <!-- BRAND -->
+
+        <div class="brand">
+
+          REEF
+
+        </div>
+
+
+        <!-- GEO -->
+
+        <div class="geo-list">
+
+          <div class="geo">
+            🇦🇪 الإمارات
+          </div>
+
+          <div class="geo">
+            🇸🇦 السعودية
+          </div>
+
+          <div class="geo">
+            🇴🇲 عُمان
+          </div>
+
+          <div class="geo">
+            🇧🇭 البحرين
+          </div>
+
+          <div class="geo">
+            🇶🇦 قطر
+          </div>
+
+          <div class="geo">
+            🇰🇼 الكويت
+          </div>
+
+        </div>
+
+
+        <!-- HEADLINE -->
+
+        <h1 class="headline">
+
+          عطرُك المميز<br>
+
+          <span class="gold">
+            بسعر أجمل
+          </span>
+
+        </h1>
+
+
+        <!-- DESCRIPTION -->
+
+        <p class="description">
+
+          استمتع بتجربة عطور ريف واحصل على
+
+          <strong>
+            خصم 5%
+          </strong>
+
+          عند استخدام كود الخصم الخاص بك.
+
+        </p>
+
+
+        <!-- OFFER -->
+
+        <div class="offer">
+
+          <div class="offer-percent">
+            5%
+          </div>
+
+          <div class="offer-text">
+
+            خصم حصري<br>
+
+            لفترة محدودة
+
+          </div>
+
+        </div>
+
+
+        <!-- =================================
+             COUPON
+        ================================== -->
+
+        <div class="coupon-area">
+
+
+          <div class="coupon-title">
+
+            🎁 انسخ الكود واحصل على الخصم
+
+          </div>
+
+
+          <!--
+
+            CLICKING THE BOX:
+
+            1. Copies REE57
+            2. Detects the visitor's GEO
+            3. Redirects to Reef
+
+          -->
+
+          <div
+            class="coupon-box"
+            id="couponBox"
+            onclick="copyAndRedirect()"
+          >
+
+
+            <div
+              class="coupon-code"
+              id="couponCode"
+            >
+
+              REE57
+
+            </div>
+
+
+            <button
+              class="copy-button"
+              id="copyButton"
+              type="button"
+            >
+
+              نسخ الكود
+
+            </button>
+
+
+          </div>
+
+
+        </div>
+
+
+        <!-- =================================
+             TIMER
+        ================================== -->
+
+        <div class="timer-title">
+
+          ⏰ ينتهي العرض خلال
+
+        </div>
+
+
+        <div class="timer">
+
+
+          <div class="time">
+
+            <div
+              class="time-number"
+              id="hours"
+            >
+              00
+            </div>
+
+            <div class="time-label">
+              ساعة
+            </div>
+
+          </div>
+
+
+          <div class="separator">
+            :
+          </div>
+
+
+          <div class="time">
+
+            <div
+              class="time-number"
+              id="minutes"
+            >
+              00
+            </div>
+
+            <div class="time-label">
+              دقيقة
+            </div>
+
+          </div>
+
+
+          <div class="separator">
+            :
+          </div>
+
+
+          <div class="time">
+
+            <div
+              class="time-number"
+              id="seconds"
+            >
+              00
+            </div>
+
+            <div class="time-label">
+              ثانية
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+        <div
+          class="status"
+          id="status"
+        >
+
+          اضغط على الكود لنسخه والانتقال إلى متجر ريف
+
+        </div>
+
+
+        <div class="footer">
+
+          تطبق شروط وأحكام العرض.
+          يرجى التحقق من توفر الكود والخصم
+          لدى ريف قبل إتمام الطلب.
+
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+
+  </main>
+
+
+
+  <script>
+
+
+    /* ==========================================
+       REEF GEO LINKS
+    ==========================================
+
+       All requested GEOs currently use:
+
+       https://reefperfumes.com/
+
+       You can replace individual URLs later
+       with your affiliate tracking URLs.
+    ========================================== */
+
+
+    const GEO_LINKS = {
+
+      AE:
+        "https://reefperfumes.com/",
+
+      SA:
+        "https://reefperfumes.com/",
+
+      OM:
+        "https://reefperfumes.com/",
+
+      BH:
+        "https://reefperfumes.com/",
+
+      QA:
+        "https://reefperfumes.com/",
+
+      KW:
+        "https://reefperfumes.com/"
+
+    };
+
+
+    const DEFAULT_LINK =
+      "https://reefperfumes.com/";
+
+
+    /* ==========================================
+       COPY FUNCTION
+    ========================================== */
+
+    async function copyCoupon(coupon) {
+
+
+      if (
+        navigator.clipboard &&
+        window.isSecureContext
+      ) {
+
+        await navigator.clipboard
+          .writeText(coupon);
+
+        return true;
+
+      }
+
+
+      return fallbackCopy(coupon);
+
+    }
+
+
+    /* ==========================================
+       FALLBACK COPY
+    ========================================== */
+
+    function fallbackCopy(text) {
+
+
+      const textarea =
+        document.createElement(
+          "textarea"
+        );
+
+
+      textarea.value =
+        text;
+
+
+      textarea.style.position =
+        "fixed";
+
+      textarea.style.opacity =
+        "0";
+
+      textarea.style.left =
+        "-9999px";
+
+
+      document.body.appendChild(
+        textarea
+      );
+
+
+      textarea.focus();
+
+      textarea.select();
+
+
+      let successful =
+        false;
+
+
+      try {
+
+        successful =
+          document.execCommand(
+            "copy"
+          );
+
+      }
+
+      catch (error) {
+
+        successful =
+          false;
+
+      }
+
+
+      textarea.remove();
+
+
+      return successful;
+
+    }
+
+
+    /* ==========================================
+       COPY + GEO REDIRECT
+    ========================================== */
+
+    async function copyAndRedirect() {
+
+
+      const coupon =
+        document
+          .getElementById(
+            "couponCode"
+          )
+          .innerText
+          .trim();
+
+
+      const button =
+        document
+          .getElementById(
+            "copyButton"
+          );
+
+
+      const status =
+        document
+          .getElementById(
+            "status"
+          );
+
+
+      /*
+        Prevent double clicks.
+      */
+
+      if (
+        button.dataset.busy === "true"
+      ) {
+
+        return;
+
+      }
+
+
+      button.dataset.busy =
+        "true";
+
+
+      button.innerText =
+        "جاري النسخ...";
+
+
+      status.innerText =
+        "جاري تجهيز العرض...";
+
+
+      /* ======================================
+         COPY REE57
+      ====================================== */
+
+      try {
+
+        await copyCoupon(
+          coupon
+        );
+
+      }
+
+      catch (error) {
+
+        /*
+          Continue even if clipboard
+          permission is unavailable.
+        */
+
+      }
+
+
+      /* ======================================
+         SUCCESS STATE
+      ====================================== */
+
+      button.innerText =
+        "تم النسخ ✓";
+
+
+      button.classList.add(
+        "copied"
+      );
+
+
+      status.innerText =
+        "تم نسخ الكود، جاري تحويلك إلى ريف...";
+
+
+      /* ======================================
+         DEFAULT DESTINATION
+      ====================================== */
+
+      let destination =
+        DEFAULT_LINK;
+
+
+      /* ======================================
+         GEO DETECTION
+      ====================================== */
+
+      try {
+
+
+        const response =
+          await fetch(
+            "https://ipapi.co/json/",
+            {
+              method:
+                "GET",
+
+              headers: {
+                "Accept":
+                  "application/json"
+              }
+            }
+          );
+
+
+        if (!response.ok) {
+
+          throw new Error(
+            "GEO lookup failed"
+          );
+
+        }
+
+
+        const data =
+          await response.json();
+
+
+        const country =
+          data.country_code;
+
+
+        /*
+          Select the regional URL.
+        */
+
+        if (
+          GEO_LINKS[country]
+        ) {
+
+          destination =
+            GEO_LINKS[country];
+
+        }
+
+
+      }
+
+      catch (error) {
+
+
+        /*
+          If GEO lookup fails,
+          use the Reef fallback.
+        */
+
+        destination =
+          DEFAULT_LINK;
+
+      }
+
+
+      /* ======================================
+         REDIRECT
+      ====================================== */
+
+      setTimeout(
+        function () {
+
+          window.location.href =
+            destination;
+
+        },
+        350
+      );
+
+    }
+
+
+    /* ==========================================
+       COUNTDOWN TIMER
+    ==========================================
+
+       2-hour visitor timer.
+
+       The timer remains after refresh
+       using localStorage.
+
+       For a genuine fixed offer expiry,
+       replace this with the actual expiry.
+    ========================================== */
+
+
+    const TIMER_HOURS =
+      2;
+
+
+    const TIMER_STORAGE_KEY =
+      "reef_gcc_offer_end";
+
+
+    function getTimerEnd() {
+
+
+      let stored =
+        localStorage.getItem(
+          TIMER_STORAGE_KEY
+        );
+
+
+      if (!stored) {
+
+
+        const end =
+          Date.now() +
+
+          TIMER_HOURS *
+          60 *
+          60 *
+          1000;
+
+
+        localStorage.setItem(
+          TIMER_STORAGE_KEY,
+          end
+        );
+
+
+        stored =
+          end;
+
+      }
+
+
+      return parseInt(
+        stored,
+        10
+      );
+
+    }
+
+
+    let timerEnd =
+      getTimerEnd();
+
+
+    /* ==========================================
+       TIMER UPDATE
+    ========================================== */
+
+    function updateTimer() {
+
+
+      const now =
+        Date.now();
+
+
+      let remaining =
+        timerEnd - now;
+
+
+      /*
+        Reset after timer expires.
+
+        If the campaign has a real fixed
+        expiry date, replace this behavior
+        with the actual campaign deadline.
+      */
+
+      if (
+        remaining <= 0
+      ) {
+
+
+        const newEnd =
+          Date.now() +
+
+          TIMER_HOURS *
+          60 *
+          60 *
+          1000;
+
+
+        localStorage.setItem(
+          TIMER_STORAGE_KEY,
+          newEnd
+        );
+
+
+        timerEnd =
+          newEnd;
+
+
+        remaining =
+          timerEnd -
+          Date.now();
+
+      }
+
+
+      const totalSeconds =
+        Math.floor(
+          remaining / 1000
+        );
+
+
+      const hours =
+        Math.floor(
+          totalSeconds / 3600
+        );
+
+
+      const minutes =
+        Math.floor(
+          (totalSeconds % 3600) / 60
+        );
+
+
+      const seconds =
+        totalSeconds % 60;
+
+
+      document
+        .getElementById(
+          "hours"
+        )
+        .textContent =
+        String(hours)
+          .padStart(
+            2,
+            "0"
+          );
+
+
+      document
+        .getElementById(
+          "minutes"
+        )
+        .textContent =
+        String(minutes)
+          .padStart(
+            2,
+            "0"
+          );
+
+
+      document
+        .getElementById(
+          "seconds"
+        )
+        .textContent =
+        String(seconds)
+          .padStart(
+            2,
+            "0"
+          );
+
+    }
+
+
+    /* ==========================================
+       START TIMER
+    ========================================== */
+
+    updateTimer();
+
+
+    setInterval(
+      updateTimer,
+      1000
+    );
+
+
+  </script>
+
+
+</body>
+
+</html>
+```
